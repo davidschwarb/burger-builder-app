@@ -1,0 +1,25 @@
+.HamburgerMenu {
+  height: 80%;
+  width: 50px;
+  z-index: 100;
+  cursor: pointer;
+}
+
+.HamburgerMenu span {
+  background-color:rgb(61, 33, 0);
+  width: 100%;
+  height: 5px;
+  margin: 15% 0 0 0;
+  display: block;
+}
+
+.HamburgerMenu .Outside {
+  width: 90%;
+  margin: 15% auto;
+}
+
+@media(min-width: 500px) {
+  .HamburgerMenu {
+    display: none;
+  }
+}
